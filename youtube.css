@@ -1,0 +1,42 @@
+
+.thumbnail{
+    width: 100%;
+}
+
+.video-title{
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.channel-name{
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.views{   
+    color: grey;
+    font-size: 12px;
+
+}
+
+.profile-picture{
+    width: 40px;
+    border-radius: 50%;
+
+}
+.thumbnail-row{
+    margin-bottom: 10px;
+
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
